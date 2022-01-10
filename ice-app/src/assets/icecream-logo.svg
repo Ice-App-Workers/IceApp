@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.0.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY ns_extend "http://ns.adobe.com/Extensibility/1.0/">
+	<!ENTITY ns_ai "http://ns.adobe.com/AdobeIllustrator/10.0/">
+	<!ENTITY ns_graphs "http://ns.adobe.com/Graphs/1.0/">
+	<!ENTITY ns_vars "http://ns.adobe.com/Variables/1.0/">
+	<!ENTITY ns_imrep "http://ns.adobe.com/ImageReplacement/1.0/">
+	<!ENTITY ns_sfw "http://ns.adobe.com/SaveForWeb/1.0/">
+	<!ENTITY ns_custom "http://ns.adobe.com/GenericCustomNamespace/1.0/">
+	<!ENTITY ns_adobe_xpath "http://ns.adobe.com/XPath/1.0/">
+]>
+<svg version="1.1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 741.3 1607.6"
+	 style="enable-background:new 0 0 741.3 1607.6;" xml:space="preserve">
+<style type="text/css">
+	.st0{opacity:0.68;fill:#F9AB3B;}
+	.st1{fill:#F9AB3B;}
+	.st2{fill:#EE4D9B;}
+	.st3{fill:#F17DB1;}
+	.st4{fill:#F7B7D3;}
+	.st5{opacity:0.27;fill:#FFFFFF;}
+	.st6{opacity:0.4;fill:#F17DB1;}
+</style>
+<metadata>
+	<sfw  xmlns="&ns_sfw;">
+		<slices></slices>
+		<sliceSourceBounds  bottomLeftOrigin="true" height="1607.6" width="741.3" x="619.7" y="-1688.5"></sliceSourceBounds>
+	</sfw>
+</metadata>
+<g id="cone">
+	<polygon id="XMLID_10_" class="st0" points="101.5,692.2 384.7,1607.6 659.6,701.3 	"/>
+	<polygon id="XMLID_11_" class="st1" points="358.2,1516.8 399.6,1554.9 386.4,1607.6 	"/>
+	<polygon id="XMLID_9_" class="st1" points="344.4,1480.5 453.7,1380.6 490.2,1253.4 324.5,1411.4 	"/>
+	<polygon id="XMLID_12_" class="st1" points="288.5,1295.2 556.7,1037.3 599.5,902.9 267.1,1226.2 	"/>
+	<polygon id="XMLID_13_" class="st1" points="230.7,1108.1 636.5,714 525.5,712.2 205.8,1024.6 	"/>
+	<polygon id="XMLID_14_" class="st1" points="300.2,694 152.8,853.8 171,919.2 394.6,703.1 	"/>
+	<polygon id="XMLID_15_" class="st1" points="248.9,1162.6 459.2,1358.8 436,1436.9 288.6,1295.2 	"/>
+	<path id="XMLID_16_" class="st1" d="M142.9,824.8c371,354.2,371,354.2,371,354.2l-21.5,74.5l-313-310.6L142.9,824.8z"/>
+	<polygon id="XMLID_17_" class="st1" points="573.5,986.4 550.3,1060.9 161.1,690.4 275.4,690.4 	"/>
+	<polygon id="XMLID_18_" class="st1" points="436,695.8 608.3,870.2 631.5,797.5 532.1,692.2 	"/>
+</g>
+<g id="strawberry">
+	<path id="XMLID_83_" class="st2" d="M685.4,673.1c8.8-25.9,13.5-53.4,13.5-81.9c0-155.3-139.4-281.2-311.5-281.2
+		c-172,0-311.5,125.9-311.5,281.2c0,28.5,4.7,56,13.5,81.9c-32.8,12.4-55.9,41.7-55.9,75.9c0,45.5,40.8,82.3,91.2,82.3
+		c41.1,0,75.9-24.6,87.2-58.4c11.4,33.8,46.1,58.4,87.3,58.4c42.5,0,78.1-26.3,88.2-61.8c10.1,35.5,45.7,61.8,88.2,61.8
+		c41.2,0,75.9-24.6,87.3-58.4c11.3,33.8,46.1,58.4,87.2,58.4c50.4,0,91.2-36.8,91.2-82.3C741.3,714.8,718.2,685.6,685.4,673.1z"/>
+	<path id="XMLID_77_" class="st3" d="M670.2,499c6-26.3,7.7-54.2,4.8-82.9c-16.3-156.6-167.5-280.8-337.7-277.4
+		C167,142,42.3,271.8,58.5,428.4c3,28.7,10.6,56.4,21.9,82.3c-31.2,13.2-51,43.2-47.4,77.7c4.8,45.9,49,82.2,98.9,81.2
+		c40.7-0.8,72.5-26.3,80.2-60.6c14.8,33.9,51.8,58,92.5,57.2c42.1-0.8,74.5-28,80.8-64.1c13.7,35.6,51.7,61.4,93.7,60.6
+		c40.8-0.8,72.6-26.3,80.3-60.6c14.8,33.9,51.7,58,92.4,57.2c49.8-1,86.3-39,81.6-84.8C729.9,540,704,510.9,670.2,499z"/>
+	<path id="XMLID_71_" class="st4" d="M657.8,357.4c9.8-26.8,15.6-55,16.8-84c6-158.2-129.1-280.5-301.9-273.1
+		C199.9,7.7,54.9,142,48.8,300.2c-1.1,29,2.6,56.9,10.4,82.9C25.7,397.2,1.4,428,0.1,462.9c-1.8,46.3,37.8,82.1,88.4,79.9
+		c41.3-1.8,77.2-28.3,89.9-63.2c10.1,33.9,44,57.5,85.4,55.7c42.7-1.8,79.5-30.1,91-66.8c8.8,35.8,43.5,61,86.2,59.2
+		c41.3-1.8,77.2-28.3,89.9-63.3c10.1,34,44,57.5,85.4,55.7c50.6-2.2,93-41.5,94.8-87.8C712.4,397.5,690.4,368.7,657.8,357.4z"/>
+	<path id="XMLID_66_" class="st5" d="M281.7,76.1c0,0-165.7,33.6-185.5,272.5c0,0,13.3,21.8,43.1-7.3c0,0,76.2-221.6,169-221.6
+		C308.2,119.7,341.3,68.8,281.7,76.1z"/>
+	<ellipse id="XMLID_3_" class="st3" cx="520.2" cy="739.1" rx="23.2" ry="27.2"/>
+	<ellipse id="XMLID_4_" class="st3" cx="167.4" cy="592" rx="18.2" ry="21.8"/>
+	<ellipse id="XMLID_5_" class="st6" cx="261.8" cy="564.7" rx="18.2" ry="16.3"/>
+	<path id="_x3C_path_x3E__1_" class="st3" d="M144.4,735.5l-0.8,7.2c-0.9,7.9-7.5,13.7-14.7,12.7l-29.6-3.8
+		c-7.2-0.9-12.5-8.2-11.6-16.1l0.8-7.2c0.9-7.9,7.5-13.7,14.7-12.7l29.6,3.8C140,720.3,145.3,727.5,144.4,735.5z"/>
+	<path id="_x3C_path_x3E_" class="st3" d="M320.3,715.5H316c-11.6,0-21-9.5-21-21v-8.9c0-11.6,9.5-21,21-21h4.4c11.6,0,21,9.5,21,21
+		v8.9C341.3,706,331.9,715.5,320.3,715.5z"/>
+	<path id="XMLID_1_" class="st5" d="M384.7,123.6h-35.6c-6.6,0-12-5.4-12-12V84.7c0-6.6,5.4-12,12-12h35.6c6.6,0,12,5.4,12,12v26.9
+		C396.7,118.2,391.3,123.6,384.7,123.6z"/>
+</g>
+</svg>
