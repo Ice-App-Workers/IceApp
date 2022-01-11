@@ -9,6 +9,9 @@
 <script>
 import Navbar from "./components/Navbar.vue";
 import Footer from "./components/Footer.vue";
+import { mapGetters, mapActions } from "vuex";
+import cookieHelper from "./helpers/cookieHelper";
+
 export default {
 	components: {
 		Navbar,
@@ -19,6 +22,31 @@ export default {
 			logo_src: "./assets/icecream.png",
 			app_name: "Buy your iceream",
 		};
+	},
+	computed: {
+		...mapGetters(["isLogged"]),
+		hasToken() {
+			return cookieHelper.hasSessionCookie();
+		},
+	},
+	methods: {
+		...mapActions(["destroySession"]),
+		restoreSession() {
+			this.$router.push();
+		},
+	},
+	watch: {
+		user(newVal) {
+			if (newVal !== null) {
+				this.restoreSession(newVal);
+				console.log(newVal);
+			} else {
+				this.$router.push({ name: "Login" });
+			}
+		},
+		hasToken(newVal) {
+			if (!newVal) this.destroySession();
+		},
 	},
 };
 </script>

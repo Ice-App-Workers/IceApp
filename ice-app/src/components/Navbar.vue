@@ -3,6 +3,9 @@
 		<router-link id="logo-url" to="/">
 			<img src="@/assets/icecream.png" :alt="alt" id="logo" />
 		</router-link>
+		<router-link to="/owner-panel">
+			Are you an Ice Cream Shop Manager?
+		</router-link>
 		<router-link to="/">Home</router-link>
 		<router-link to="/cart">Cart</router-link>
 	</div>

@@ -19,6 +19,7 @@ export default {
 <style scoped>
 #icecream-table {
 	max-width: 90rem;
+	min-height: 600px;
 	margin: 0 auto;
 }
 #icecream-table-heading,
