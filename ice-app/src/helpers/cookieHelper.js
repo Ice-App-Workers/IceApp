@@ -11,8 +11,8 @@ const defaultParams = {
 };
 
 export default {
-	deleteSessionCookie() {
-		cookie.remove(SESSION_COOKIE_NAME, APP_PATH, APP_DOMAIN);
+	deleteSessionCookie(token) {
+		cookie.remove(SESSION_COOKIE_NAME, APP_PATH, APP_DOMAIN, token);
 	},
 	hasSessionCookie() {
 		return !!cookie.get(SESSION_COOKIE_NAME);

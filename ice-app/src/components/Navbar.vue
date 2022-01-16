@@ -3,18 +3,35 @@
 		<router-link id="logo-url" to="/">
 			<img src="@/assets/icecream.png" :alt="alt" id="logo" />
 		</router-link>
-		<router-link to="/owner-panel">
+		<router-link to="/owner-panel" v-if="!isLogged">
 			Are you an Ice Cream Shop Manager?
 		</router-link>
+		<div v-else>
+			<router-link to="/manage-shop"> Manager Panel </router-link>
+			<b-button
+				variant="link"
+				style="color: orange; text-decoration: none"
+				@click="destroySession"
+			>
+				Logout
+			</b-button>
+		</div>
 		<router-link to="/">Home</router-link>
-		<router-link to="/cart">Cart</router-link>
+		<router-link to="/cart" v-if="!isLogged">Cart</router-link>
 	</div>
 </template>
 
 <script>
+import { mapGetters, mapActions } from "vuex";
 export default {
+	computed: {
+		...mapGetters(["isLogged"]),
+	},
 	name: "Navbar",
 	props: ["logo", "alt"],
+	methods: {
+		...mapActions(["destroySession"]),
+	},
 };
 </script>
 
@@ -50,4 +67,3 @@ export default {
 	}
 }
 </style>
-© 2022 GitHub, Inc. Terms Privacy Security Status

@@ -16,7 +16,15 @@
 					<b-button variant="dark" size="lg" to="/register-shop">
 						Register your shop
 					</b-button>
-					<b-button variant="dark" size="lg" to="/login-to-shop">
+					<b-button
+						variant="dark"
+						size="lg"
+						to="/login-to-shop"
+						v-if="!isLogged"
+					>
+						Login to your shop
+					</b-button>
+					<b-button variant="dark" size="lg" to="/manage-shop" v-else>
 						Manage your shop
 					</b-button>
 				</div>
@@ -26,7 +34,12 @@
 </template>
 
 <script>
-export default {};
+import { mapGetters } from "vuex";
+export default {
+	computed: {
+		...mapGetters(["isLogged"]),
+	},
+};
 </script>
 
 <style>

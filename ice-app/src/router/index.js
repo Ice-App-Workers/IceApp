@@ -1,4 +1,5 @@
 import VueRouter from "vue-router";
+import store from "../store";
 import Cart from "../views/Cart.vue";
 import Home from "../views/Home.vue";
 import loginToShop from "../views/loginToShop.vue";
@@ -42,5 +43,9 @@ const router = new VueRouter({
 	mode: "history",
 	routes,
 });
+router.beforeEach((to, from, next) => {
+	store.dispatch("restoreSession");
 
+	next();
+});
 export default router;

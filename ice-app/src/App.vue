@@ -41,12 +41,13 @@ export default {
 				this.restoreSession(newVal);
 				console.log(newVal);
 			} else {
-				this.$router.push({ name: "Login" });
+				this.$router.push({ name: "Home" });
 			}
 		},
 		hasToken(newVal) {
 			if (!newVal) this.destroySession();
 		},
+		
 	},
 };
 </script>

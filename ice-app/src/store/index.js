@@ -7,15 +7,24 @@ Vue.use(Vuex);
 export default new Vuex.Store({
 	state: {
 		user: null,
+		icecreams: [],
+		cart: [],
 	},
 	getters: {
 		user: (state) => state.user,
 		isLogged: (state) => !!state.user,
-		name: (state) => state.user.name,
+		cart: (state) => state.cart,
+		providerId: (state) => state.user.providerId,
 	},
 	mutations: {
 		storeUser(state, user) {
 			state.user = user;
+		},
+		ADD_Item(state, data) {
+			state.cart.push(data);
+		},
+		REMOVE_Item(state, index) {
+			state.cart.splice(index, 1);
 		},
 	},
 	actions: {
@@ -31,7 +40,14 @@ export default new Vuex.Store({
 		destroySession({ commit }) {
 			commit("storeUser", null);
 			cookieHelper.deleteSessionCookie();
-			this.$router.go("/");
+			this.$router.push({ name: "Home" });
+		},
+		addItem({ commit }, data) {
+			commit("ADD_Item", data);
+			console.log(this.state.cart);
+		},
+		removeItem({ commit }, id) {
+			commit("REMOVE_Item", id);
 		},
 	},
 });

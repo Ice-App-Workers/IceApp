@@ -67,7 +67,7 @@ export default {
 				email: this.loginForm.email,
 				password: this.loginForm.password,
 			});
-			this.$router.push({ name: "mainPage" });
+			this.$router.push({ name: "ownerPanel" });
 		},
 		resetForm(loginForm) {
 			this.$refs[loginForm].resetFields();

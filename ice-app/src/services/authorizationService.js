@@ -11,27 +11,18 @@ export default function (Vue) {
 				},
 				loginRequest,
 			);
-			if (result.status)
-				store.dispatch("setSession", result.data.accessToken);
+			if (result.status) {
+				store.dispatch("setSession", result.data.token);
+			}
 			return result;
 		},
 		async register(registerRequest) {
 			const result = await requestSender.send(
 				{
-					method: "post",
+					method: "put",
 					url: `https://localhost:44385/Register`,
 				},
 				registerRequest,
-			);
-			return result;
-		},
-		async activateAccount(request) {
-			const result = await requestSender.send(
-				{
-					method: "put",
-					url: `/authentication`,
-				},
-				request,
 			);
 			return result;
 		},

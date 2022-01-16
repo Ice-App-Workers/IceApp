@@ -13,8 +13,10 @@ import App from "./App.vue";
 import cookieHelper from "./helpers/cookieHelper";
 import router from "./router";
 import authorizationService from "./services/authorizationService";
-import getterService from "./services/getterService";
+import icecreamsService from "./services/icecreamsService";
+import shopService from "./services/shopService";
 import store from "./store";
+import * as VueGoogleMaps from "vue2-google-maps";
 
 Vue.use(VueRouter);
 Vue.use(VueAxios, axios);
@@ -23,7 +25,14 @@ Vue.use(IconsPlugin);
 Vue.use(authorizationService);
 Vue.use(VueCookies);
 Vue.use(ElementUI, { locale: elementLocale });
-Vue.use(getterService);
+Vue.use(shopService);
+Vue.use(icecreamsService);
+Vue.use(VueGoogleMaps, {
+	load: {
+		key: "AIzaSyDWuh1lZP1loT8uTBwG1pdzzQbf03dKj4c",
+		libraries: "places",
+	},
+});
 
 Vue.axios.defaults.baseURL = process.env.VUE_APP_API_BASE_URL;
 

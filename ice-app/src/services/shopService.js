@@ -1,7 +1,7 @@
 import requestSender from "../helpers/requestSender.js";
 
 export default function (Vue) {
-	Vue.user = {
+	Vue.shop = {
 		async getShops() {
 			const result = await requestSender.send({
 				method: "put",
@@ -9,11 +9,17 @@ export default function (Vue) {
 			});
 			return result;
 		},
+		async getShop(id) {
+			const result = await requestSender.send({
+				method: "put",
+				url: `https://localhost:44385/GetShopsById?providerId=${id}`,
+			});
+			return result;
+		},
 	};
-
 	Object.defineProperties(Vue.prototype, {
-		$user: {
-			get: () => Vue.user,
+		$shop: {
+			get: () => Vue.shop,
 		},
 	});
 }
